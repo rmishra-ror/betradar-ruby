@@ -1,0 +1,259 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.betradar.com/v1/liveodds/booking-calendar/events/11223344/book
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 07:40:39 GMT
+      Content-Type:
+      - application/xml
+      Content-Length:
+      - '250'
+      Connection:
+      - keep-alive
+      X-Srv:
+      - unifiedfeed-prod-frontend1.ch.sportradar.ag
+      X-Sbe:
+      - liveodds_prod_ufproducer_lb1
+      X-Varnish:
+      - '714342533'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: UTF-8
+      string: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><response response_code="BAD_REQUEST"><action>Request
+        for booking an event : 11223344 from bookmaker: 21951 received</action><message>ERROR.
+        Bad Request: The match is unknown</message></response>'
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 07:40:40 GMT
+- request:
+    method: post
+    uri: https://api.betradar.com/v1/liveodds/booking-calendar/events/sr:match:15927538/book
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 07:40:41 GMT
+      Content-Type:
+      - application/xml
+      Content-Length:
+      - '296'
+      Connection:
+      - keep-alive
+      X-Srv:
+      - unifiedfeed-prod-frontend1.ch.sportradar.ag
+      X-Sbe:
+      - liveodds_prod_ufproducer_lb2
+      X-Varnish:
+      - '713328533'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: UTF-8
+      string: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><response response_code="BAD_REQUEST"><action>Request
+        for booking an event : sr:match:15927538 from bookmaker: 21951 received</action><message>ERROR.
+        Bad Request: The match is not offered within our live betting services</message></response>'
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 07:40:41 GMT
+- request:
+    method: post
+    uri: https://api.betradar.com/v1/liveodds/booking-calendar/events/sr:match:15011517/book
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 10:10:30 GMT
+      Content-Type:
+      - application/xml
+      Content-Length:
+      - '258'
+      Connection:
+      - keep-alive
+      X-Srv:
+      - unifiedfeed-prod-frontend1.ch.sportradar.ag
+      X-Sbe:
+      - liveodds_prod_ufproducer_lb1
+      X-Varnish:
+      - '738511834'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: UTF-8
+      string: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><response response_code="BAD_REQUEST"><action>Request
+        for booking an event : sr:match:15011517 from bookmaker: 21951 received</action><message>ERROR.
+        Bad Request: The match is booked</message></response>'
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 10:10:30 GMT
+- request:
+    method: post
+    uri: https://api.betradar.com/v1/liveodds/booking-calendar/events/sr:match:15011517/book
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 10:11:56 GMT
+      Content-Type:
+      - application/xml
+      Content-Length:
+      - '258'
+      Connection:
+      - keep-alive
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - liveodds_prod_ufproducer_lb2
+      X-Varnish:
+      - '993955110'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: UTF-8
+      string: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><response response_code="BAD_REQUEST"><action>Request
+        for booking an event : sr:match:15011517 from bookmaker: 21951 received</action><message>ERROR.
+        Bad Request: The match is booked</message></response>'
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 10:11:56 GMT
+- request:
+    method: post
+    uri: https://api.betradar.com/v1/liveodds/booking-calendar/events/sr:match:15011509/book
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 10:12:10 GMT
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - liveodds_prod_ufproducer_lb2
+      X-Varnish:
+      - '989239587'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAzSOwQ6CMBBEf2XTu0BNSKQp5eaFA4nRs6llQQJttVuJ/r2NkcMmO5nZNyubt11gxUCTdzXjWcEAnfH95MaaXc7H3YEBRe16vXiHNfsgsUbJgPTwjhC25Zpukt21TEltYqKpEz5fSBEGH+Dm/ZyQoB3gii6CAArC6mjugpcFT1PBELz9Ja2eMQjY86rkqcHgtGIv8z9XWiTSI6quzWS+CZlvr6gvAAAA//8DAHE4dhrVAAAA
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 10:12:10 GMT
+recorded_with: VCR 4.0.0
