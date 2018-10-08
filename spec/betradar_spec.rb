@@ -1,9 +1,13 @@
 RSpec.describe Betradar do
-  it "has a version number" do
+  it 'has a version number' do
     expect(Betradar::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(true).to eq(true)
+  describe Betradar::Client do
+    let(:client) { Betradar::Client.new('asasa3fxvwervcv') }
+
+    it 'should exist' do
+      expect(client).to be_kind_of(Betradar::Client)
+    end
   end
 end
