@@ -1,5 +1,10 @@
+dist: precise
 sudo: false
 language: ruby
-rvm:
-  - 2.5.1
-before_install: gem install bundler -v 1.16.2
+rvm: 2.5.1
+env:
+  matrix:
+  - CMD="rspec"
+  - CMD="rubocop -D"
+script:
+- bundle exec $CMD
