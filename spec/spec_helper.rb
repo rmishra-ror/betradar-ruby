@@ -1,12 +1,12 @@
-require "bundler/setup"
+require 'bundler/setup'
 require 'pry'
-require "betradar"
+require 'betradar'
 require 'vcr'
 require 'webmock/rspec'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
-  config.example_status_persistence_file_path = ".rspec_status"
+  config.example_status_persistence_file_path = '.rspec_status'
 
   # Disable RSpec exposing methods globally on `Module` and `main`
   config.disable_monkey_patching!
@@ -17,7 +17,7 @@ RSpec.configure do |config|
 end
 
 VCR.configure do |c|
-  c.cassette_library_dir = "spec/fixtures/cassettes"
+  c.cassette_library_dir = 'spec/fixtures/cassettes'
   c.hook_into :webmock
-  c.default_cassette_options = { :record => :once}
+  c.default_cassette_options = { record: :once }
 end

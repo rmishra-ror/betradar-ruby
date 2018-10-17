@@ -11,14 +11,26 @@ RSpec.describe 'Betradar::Api::BettingDescriptions' do
         response = @client.market_descriptions
         expect(response[:market_descriptions]).to include(response_code: 'OK')
 
-        expect(response[:market_descriptions]).to include(market: [
-                                                            { id: '282', name: 'Innings 1 to 5th top - {$competitor1} total', groups: 'all' },
-                                                            { outcomes: { outcome: [[{ id: '13', name: 'under {total}' }], [{ id: '12', name: 'over {total}' }]] } },
-                                                            { specifiers: { specifier: [{ name: 'total', type: 'decimal' }] } },
-                                                            { mappings: { mapping:                                                                         [{ product_id: '1', product_ids: '1|4', sport_id: 'sr:sport:3', market_id: '8:232', sov_template: '{total}' },
-                                                                                                                                                            { mapping_outcome: [{ outcome_id: '13', product_outcome_id: '2528', product_outcome_name: 'under' }] },
-                                                                                                                                                            { mapping_outcome: [{ outcome_id: '12', product_outcome_id: '2530', product_outcome_name: 'over' }] }] } }
-                                                          ])
+        expect(response[:market_descriptions])
+          .to include(
+            market: [
+              { id: '282', name: 'Innings 1 to 5th top - {$competitor1} total', groups: 'all' },
+              { outcomes: { outcome: [[{ id: '13', name: 'under {total}' }], [{ id: '12', name: 'over {total}' }]] } },
+              { specifiers: { specifier: [{ name: 'total', type: 'decimal' }] } },
+              { mappings: {
+                mapping: [
+                  { product_id: '1', product_ids: '1|4', sport_id: 'sr:sport:3',
+                    market_id: '8:232', sov_template: '{total}' },
+                  { mapping_outcome: [
+                    { outcome_id: '13', product_outcome_id: '2528', product_outcome_name: 'under' }
+                  ] },
+                  { mapping_outcome: [
+                    { outcome_id: '12', product_outcome_id: '2530', product_outcome_name: 'over' }
+                  ] }
+                ]
+              } }
+            ]
+          )
       end
     end
   end
@@ -56,7 +68,8 @@ RSpec.describe 'Betradar::Api::BettingDescriptions' do
       VCR.use_cassette('betting_descriptions') do
         response = @client.betstop_descriptions
         expect(response[:betstop_reasons_descriptions]).to include(response_code: 'OK')
-        expect(response[:betstop_reasons_descriptions]).to include(betstop_reason: [{ id: '0', description: 'UNKNOWN' }])
+        expect(response[:betstop_reasons_descriptions])
+          .to include(betstop_reason: [{ id: '0', description: 'UNKNOWN' }])
       end
     end
   end

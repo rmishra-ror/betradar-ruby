@@ -1,0 +1,33 @@
+AllCops:
+  TargetRubyVersion: 2.4.1
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+  - spec/**/*.rb
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/MultilineIfModifier:
+  Enabled: false
