@@ -1,7 +1,7 @@
 module Betradar
   class Client < Request
     attr_accessor :api_key
-    BASE_URL= 'https://api.betradar.com/v1'
+    BASE_URL = 'https://api.betradar.com/v1'.freeze
     include ::Api::OddsRecover
     include ::Api::StaticSportEventInformation
     include ::Api::SportEventInformation

@@ -15,7 +15,7 @@ module Betradar
 
       def on_complete(response)
         klass = errors[response.try(:http_code)&.to_i] || Betradar::Error::Unknown
-        fail klass.new(klass.new(response.inspect)) # rubocop:disable RaiseArgs
+        fail klass.new(klass.new(response.inspect))
       end
     end
 
