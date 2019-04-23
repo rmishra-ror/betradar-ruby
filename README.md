@@ -1,6 +1,8 @@
 # Betradar
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/betradar`. To experiment with that code, run `bin/console` for an interactive prompt.
+A library that fetches odds data, Developed by [Gammastack](https://www.gammastack.com/online-sports-betting-website-development/).
+
+In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/betradar`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
 
