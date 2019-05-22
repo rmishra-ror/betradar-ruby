@@ -1,0 +1,333 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/players/sr:player:1s1223344/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:33:06 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '138'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb2
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '981994381'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAw3MQQrDIBAAwHteIXstpmtDSyoxuRV6T88idSNCsha1oc9vHjAzTL9tFTvlEhMbUC2CIH4nHzkYeM0P2cM0NsPHBbKcql3Sl70IxJRdJW9dNXBB1UuFUl1nvOuu03g7IWo8ro1KOaiBJ+9ujV5ET1zjEim3cB6bPzPl29mAAAAA
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:33:06 GMT
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/competitors/sr:competitor:1a1/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:33:07 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '138'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb3
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '980421545'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAw3MQQrDIBAAwHteIXstpmtDaSoxuRV6T88idSNCsha1oc9vHjAzTL9tFTvlEhMbUC2CIH4nHzkYeM0P2cM0NsPHBbKcql3Sl70IxJRdJW9dNXBB1UuFUl1nvOuu03g7IWo8ro1KOaiBJ+9ujV5ET1zjEim3cB6bP5J1zDGAAAAA
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:33:07 GMT
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/players/sr:player:1s1223344/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:36:57 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb2
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '981865132'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAw3MQQ6CMBAAwDuvaPZqwK0GhYbCzcQ7npvGLk0T2Jq2Ep8vD5gZpt+2ip1SDpE1yAZBEL+jC+w1vOZH3cE0VsPHejIci1nil53wxJRsIWds0XBB2dUSa9nO2KvrTbX3E6LC49oo54NqePJu1+BEcMQlLIFSA+ex+gPtMQj7gAAAAA==
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:36:57 GMT
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/players/sr:player:947/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:37:14 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '364'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=300, public, s-maxage=300
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb4
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '979574971'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VRwW7CMAy98xWRr1ubBNgKFQVpEtuF7TIm7VaFJm0jtUmVBAp/P1MYEpdJu9my3/Pze4vVsW3IQTmvrcmAxwyIMoWV2lQZfG1foxmslqNF14iTcnnnbKkbRRBkfHr0OoM6hC6ltO/7uJ/E1lV0zBin3++bz6JWrYi08UGYQgGplFFOBCVzETIYMz6LOIv405bN00mS8ukDYylDBQP9jdoPPD72nXXBCSlcXNiWDq0XnaYHTvdGl1pJhHqdXgAbW4gwfHWV+A8e8jdk58XvxfNxlEuVkZ3VJvjb4N6y+OglLK8+Ei0z8C69rKTzaQLEiFZl8CKcEU4+ko1Cw8p90+SXAfbkOgQSTh3ultb1uAtEoqe5LfOddqHGEOezacSSiM/OrGcLRKPDKYO1qRphEFDYvQnulGPOyLP+eANSK13VmApPENVfm2esMTSpXAataBTQ5YLe/7Uc/QA9upquQwIAAA==
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:37:15 GMT
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/competitors/sr:competitor:245739/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:39:27 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '355'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=60, public, s-maxage=60
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb4
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '985826974'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VSXU/CMBR951c0fdWt3ZAADYOYAMYoPsAWfSNlu4wmrF3awuDfWyYbGhMTH097vu5tR5NTsUdH0EYoGeHApxiBTFUmZB7hJJ57AzwZd0apKkqwwiq9LrXaij0gJ5SGnYyI8M7akhFSVZVfdX2lcxJSGpCPxesq3UHBPSGN5TIFjHKQoLmFbM1thEMaDLyAekEvpkPWHbKwf0cpo65Fbd9am9rH+KZU2mqece27SqSGhpeCHANykGIrIHNSI9iX4FWl3NaTXSv+wwf9LdkY3iRewl1dAjIrlZDWtBe/1+afTIbH3/aJRBZho9mNysKHXr87xEjyAiL8nrxNZ8t7tHhcviQrjFJ1kFafI/wEuuDy3J6s3bM5/nSWYMQ3Gw1HcR3eWbjMellNXA1YrwmJQUphMHHN3OPkSp8bYoNZf9Cyn+M5WoC80Mmt9w/QfJNx5xPR0l76YwIAAA==
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:39:27 GMT
+- request:
+    method: get
+    uri: https://api.betradar.com/v1/sports/en/players/sr:player:947/profile.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Access-Token:
+      - "<HIDDEN>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Mon, 15 Oct 2018 09:47:34 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Content-Length:
+      - '364'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=300, public, s-maxage=300
+      X-Version-Instance:
+      - "/unified/v1"
+      Content-Encoding:
+      - gzip
+      X-Srv:
+      - unifiedfeed-prod-frontend2.ch.sportradar.ag
+      X-Sbe:
+      - berilia_prod_ufweb1
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - '963763323'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VRwW7CMAy98xWRr1ubFNiAiII0ie3CdhmTdqtCk7aR2qRKAqV/PwMdEpdJu9my3/Pze8v1qanJUTmvrUkhiRkQZXIrtSlT+Nq9RnNYr0bLtha9clnrbKFrRRBkPD95nUIVQssp7bou7iaxdSUdM5bQ7/ftZ16pRkTa+CBMroCUyigngpKZCCmMWTKPEhYlTzu24NMZn0wfGOMMFVzob9T+wuNj31oXnJDCxblt6KX1otX0mNCD0YVWEqFe8ytga3MRLl8NEv/BQ/6G7L34vXg+jnKpMrK12gR/G9xbFp+8hNXgI9EyBe/4dYUvpjMgRjQqhRfhjHDykWwVGlYc6jq7DrAnwxBI6FvcLazrcBeIRE8zW2R77UKFIS7m04jNomR+Zj1bIGod+hQ2pqyFQUBuDya4PsOckWfz8QakUrqsMJVkhqhuaJ6xxtCkcik0olZAV0t6/9dq9AP6+SrYQwIAAA==
+    http_version: 
+  recorded_at: Mon, 15 Oct 2018 09:47:34 GMT
+recorded_with: VCR 4.0.0

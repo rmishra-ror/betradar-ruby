@@ -2,7 +2,7 @@ require 'spec_helper'
 
 RSpec.describe 'Betradar::Api::BettingDescriptions' do
   before do
-    @client = Betradar::Client.new('randomkey')
+    @client = Betradar::Client.new('LAXMMGU88C7Cdhb4ja')
   end
 
   describe 'GET descriptions/en/markets.xml' do
@@ -31,6 +31,18 @@ RSpec.describe 'Betradar::Api::BettingDescriptions' do
               } }
             ]
           )
+      end
+    end
+
+    it 'should get the market_descriptions without mapping' do
+      VCR.use_cassette('betting_descriptions') do
+        response = @client.market_descriptions(false)
+        expect(response[:market_descriptions]).to include(response_code: 'OK')
+        expect(response[:market_descriptions])
+          .to include(market: [{ id: '282', name: 'Innings 1 to 5th top - {$competitor1} total', groups: 'all' },
+                               { outcomes: { outcome: [[{ id: '13', name: 'under {total}' }],
+                                                       [{ id: '12', name: 'over {total}' }]] } },
+                               { specifiers: { specifier: [{ name: 'total', type: 'decimal' }] } }])
       end
     end
   end
